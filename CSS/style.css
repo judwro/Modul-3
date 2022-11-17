@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header__heading {
+    border: 4px groove black;
+    width: auto;
+    height: auto;
+    background-color: #00bcd436;
+    border-radius: 10px;
+    padding: 43px;
+    text-align: center;
+    margin: 10px;
+    outline-style: groove;
+    outline-color: #a2a7c3;
+    outline-width: 4px;
+
+}
+
+.body {
+    margin: 10px auto;
+    max-width: 1000px;
+    background-color: white;
+    font-family: 'Fuzzy Bubbles', cursive, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+
+.section__headline {
+    text-align: center;
+    border: 3px solid #303844;
+    box-shadow: 11px 8px 25px 5px #303844;
+    border-radius: 6px;
+}
+
+
+.article__header {
+    text-align: center;
+    border: 4px solid #303844;
+    box-shadow: 11px 8px 25px 5px #303844;
+    border-radius: 6px;
+}
+
+
+.table__caption {
+    font-weight: bold;
+    text-shadow: 1px 2px 3px rgb(109, 109, 109);
+
+}
+
+.table__Cell {
+    border: 2px solid #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table__Cell--Header {
+    background-color: rgb(161, 161, 161);
+    font-weight: normal;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.list__Item {
+    margin: 10px 0;
+    list-style-type: square;
+}
+
+.aside {
+    width: 200px;
+    height: 220px;
+    background-color: #d4d4d4d7;
+    border: 6px double #4a4848;
+    box-shadow: 10px 10px 14px -4px #8d8f98;
+    margin: 50px 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.navigation {
+    display: inline;
+    text-align: center;
+    list-style: none;
+}
+
+.navigation__item {
+    font-size: 15px;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border: solid grey;
+    border-radius: 5px;
+    border-width: 2px;
+    background: grey box-shadow 2px -3px 10px 0px #181818;
+    padding: 10px;
+}
+
+.navigation__Link {
+    color: black;
+    font-style: unset;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 20px;
+    margin: 70px;
+    text-align: center;
+}
+
+.navigation__button {
+    color: black;
+    font-style: unset;
+    font-weight: bold;
+
+}
+
+.dark {
+    background-color: #80808054;
+}
+
+.list {
+    font-weight: bold;
+    text-shadow: 1px 2px 3px rgb(109, 109, 109);
+}
