@@ -58,7 +58,7 @@ html {
 
 .table {
     border-collapse: collapse;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 .table__Cell--Header {
